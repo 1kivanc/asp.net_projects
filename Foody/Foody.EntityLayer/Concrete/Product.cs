@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Foody.EntityLayer.Concrete
 {
-    public class Products
+    public class Product
     {
         public int ProductId { get; set; }
         public string ProductName { get; set; }
