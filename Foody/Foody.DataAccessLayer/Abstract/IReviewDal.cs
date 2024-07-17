@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Foody.DataAccessLayer.Abstract
 {
-    internal interface IReviewDal:IGenericDal<Review>
+    public interface IReviewDal:IGenericDal<Review>
     {
     }
 }
